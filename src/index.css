@@ -244,7 +244,7 @@ ul {
   text-align: center;
 }
 
-.title-underline {
+.underline {
   background: var(--primary-500);
   width: 7rem;
   height: 0.25rem;
