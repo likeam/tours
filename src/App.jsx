@@ -1,6 +1,14 @@
+import Loading from "./Loading";
+import Tours from "./Tours";
+
+const url = 'https://www.course-api.com/react-tours-project';
+
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <Loading />
+    <Tours />
+    </>
   )
 }
 export default App
