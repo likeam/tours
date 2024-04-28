@@ -1,10 +1,13 @@
 import Tour from "./Tour"
 
-const Tours = () => {
+const Tours = (props) => {
+
+  const newTour = props.tour;
+
   return (
-    <>
-    <Tour />
-    </>
+    <div >
+    <Tour tourOne={newTour}/>
+    </div>
   )
 }
 export default Tours
